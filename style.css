@@ -1,0 +1,282 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+}
+
+.top-banner {
+    background-color: #009733;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.header-bidding {
+    color: #ffffff;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-logo-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.logo{
+    display: flex;
+    cursor: pointer;
+}
+
+.search-container {
+    flex-grow: 2;
+    margin: 0 20px;
+    position: relative;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.input-search {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    color: #009733;
+    font-size: 18px;
+    cursor: pointer;
+}
+.account-delivery-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 20rem;
+}
+.delivery-mode {
+    display: flex;
+    align-items: center;
+    color: #009733;
+}
+
+.delivery-mode i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.delivery-text strong {
+    font-size: 14px;
+    color: #333;
+}
+
+.delivery-text span {
+    color: #666;
+    font-size: 12px;
+}
+
+.account-cart {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.account-link, .cart-link {
+    display: flex;
+    align-items: center;
+    color: #009733;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 15px;
+}
+
+.account-link i, .cart-link i {
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.category-menu {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5dd;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+
+.categories {
+    display: flex;
+    align-items: center;
+    background-color: #009933;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.categories i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+
+.menu-items {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.menu-items li{
+    margin-right: 20px;
+    color: #009933;
+}
+
+.menu-items li a:hover {
+    text-decoration: underline;
+}
+.breadcrumb {
+    padding: 25px 35px;
+    font-size: 15px;
+}
+.breadcrumb b{
+    color: #a6b1a6;
+    font-weight: 500;
+}
+.offer-container{
+    width: 100%;
+}
+.offer-title{
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+.offer-title span{
+    color: #a6b1a6;
+    font-size: 16px;
+    font-weight: 500;
+}
+.grid-container{
+
+}
+.product-filters {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.search-filter-label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+#sort-select{
+    width: 140px;
+}
+#price-range-select{
+    width: 130px;
+}
+.search-filter {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.sort-by-price, .sort-by {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.menu-container {
+    width: 200px;
+    padding: 10px 50px;
+    margin-top: 20px;
+    margin-right: auto;
+}
+
+.menu-item {
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plus-sign {
+    margin-left: auto;
+}
+.products-container{
+    display: flex;
+    justify-content: right;
+    margin-top: -120px;
+    margin-right: 80px;
+}
+.product-card {
+    width: 200px;
+    margin-left: auto;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+}
+
+.product-info {
+    margin-top: 10px;
+}
+
+.product-name {
+    font-weight: bold;
+}
+
+.discount {
+    color: red;
+    font-weight: bold;
+}
+
+.price {
+    margin: 10px 0;
+}
+
+.price-per-kg {
+    font-size: 12px;
+    color: #555;
+}
+
+.add-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+
+
+
