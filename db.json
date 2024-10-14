@@ -1,0 +1,81 @@
+{
+  "students": [
+    {
+      "id": "3",
+      "name": "Sebastian Silva",
+      "level": "3",
+      "grade1": 4,
+      "grade2": 3.5,
+      "grade3": 4,
+      "grade4": 3.5,
+      "grade5": 4,
+      "grade6": 3.5
+    },
+    {
+      "id": "4",
+      "name": "Jimena Jimenez",
+      "level": "4",
+      "grade1": 3.5,
+      "grade2": 4,
+      "grade3": 3.5,
+      "grade4": 4,
+      "grade5": 3.5,
+      "grade6": 4
+    },
+    {
+      "id": "5",
+      "name": "Constanza Contreras",
+      "level": "5",
+      "grade1": 4,
+      "grade2": 4.5,
+      "grade3": 4,
+      "grade4": 4.5,
+      "grade5": 4,
+      "grade6": 4.5
+    },
+    {
+      "id": "6",
+      "name": "Cristian Caceres",
+      "level": "6",
+      "grade1": 4.5,
+      "grade2": 4,
+      "grade3": 4.5,
+      "grade4": 4,
+      "grade5": 4.5,
+      "grade6": 4
+    },
+    {
+      "id": "7",
+      "name": "Javiera Jara",
+      "level": "7",
+      "grade1": 4,
+      "grade2": 3.5,
+      "grade3": 4,
+      "grade4": 3.5,
+      "grade5": 4,
+      "grade6": 3.5
+    },
+    {
+      "id": "8",
+      "name": "Felipe Fernandez",
+      "level": "8",
+      "grade1": 3.5,
+      "grade2": 4,
+      "grade3": 3.5,
+      "grade4": 4,
+      "grade5": 3.5,
+      "grade6": 4
+    },
+    {
+      "id": "10",
+      "name": "Rodrigo Rojas",
+      "level": "10",
+      "grade1": 4.5,
+      "grade2": 4,
+      "grade3": 4.5,
+      "grade4": 4,
+      "grade5": 4.5,
+      "grade6": 4
+    }
+  ]
+}
